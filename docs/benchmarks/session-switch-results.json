@@ -1,0 +1,13 @@
+{
+  "harness": "0.2.1-rc.2",
+  "model": "deterministic local fixture",
+  "browser": "156.0.8078.48",
+  "checks": [
+    "A → B → A repeated navigation restores only each session’s own cached suggestions",
+    "Switching during a slow prediction cancels alpha; Tab inserts only beta into beta’s draft",
+    "A new turn invalidates the old alpha cache while beta’s cache stays isolated",
+    "Session switching preserves drafts and produces no browser errors"
+  ],
+  "predictionRequests": 16,
+  "pageErrors": []
+}

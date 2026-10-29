@@ -1,0 +1,120 @@
+{
+  "measuredAt": "2026-10-29T15:59:06.111Z",
+  "model": "deterministic local fixture; not the DeepSeek cloud API",
+  "harness": "0.2.1-rc.2",
+  "browser": "156.0.8078.48",
+  "summaries": [
+    {
+      "debounceMs": 300,
+      "count": 6,
+      "medians": {
+        "inputToRequestMs": 307,
+        "requestToFirstMs": 98,
+        "inputToFirstMs": 405,
+        "inputToReadyMs": 426
+      },
+      "firstRangeMs": [
+        396,
+        407
+      ],
+      "readyRangeMs": [
+        425,
+        430
+      ],
+      "samples": [
+        {
+          "inputToRequestMs": 304.7000000476837,
+          "requestToFirstMs": 92.89999997615814,
+          "inputToFirstMs": 397.60000002384186,
+          "inputToReadyMs": 429.60000002384186
+        },
+        {
+          "inputToRequestMs": 306.5,
+          "requestToFirstMs": 100.60000002384186,
+          "inputToFirstMs": 407.10000002384186,
+          "inputToReadyMs": 426
+        },
+        {
+          "inputToRequestMs": 307.5,
+          "requestToFirstMs": 97.89999997615814,
+          "inputToFirstMs": 405.39999997615814,
+          "inputToReadyMs": 424.60000002384186
+        },
+        {
+          "inputToRequestMs": 307,
+          "requestToFirstMs": 100,
+          "inputToFirstMs": 407,
+          "inputToReadyMs": 425.2000000476837
+        },
+        {
+          "inputToRequestMs": 306.2999999523163,
+          "requestToFirstMs": 90,
+          "inputToFirstMs": 396.2999999523163,
+          "inputToReadyMs": 429.60000002384186
+        },
+        {
+          "inputToRequestMs": 308,
+          "requestToFirstMs": 97.20000004768372,
+          "inputToFirstMs": 405.2000000476837,
+          "inputToReadyMs": 425.3000000715256
+        }
+      ]
+    },
+    {
+      "debounceMs": 200,
+      "count": 6,
+      "medians": {
+        "inputToRequestMs": 207,
+        "requestToFirstMs": 99,
+        "inputToFirstMs": 306,
+        "inputToReadyMs": 325
+      },
+      "firstRangeMs": [
+        304,
+        308
+      ],
+      "readyRangeMs": [
+        324,
+        329
+      ],
+      "samples": [
+        {
+          "inputToRequestMs": 207.09999990463257,
+          "requestToFirstMs": 101,
+          "inputToFirstMs": 308.09999990463257,
+          "inputToReadyMs": 328.59999990463257
+        },
+        {
+          "inputToRequestMs": 205.5,
+          "requestToFirstMs": 100.30000007152557,
+          "inputToFirstMs": 305.8000000715256,
+          "inputToReadyMs": 325.2000000476837
+        },
+        {
+          "inputToRequestMs": 207.79999995231628,
+          "requestToFirstMs": 96,
+          "inputToFirstMs": 303.7999999523163,
+          "inputToReadyMs": 323.60000002384186
+        },
+        {
+          "inputToRequestMs": 206.60000002384186,
+          "requestToFirstMs": 99.19999992847443,
+          "inputToFirstMs": 305.7999999523163,
+          "inputToReadyMs": 325
+        },
+        {
+          "inputToRequestMs": 207.5,
+          "requestToFirstMs": 96.79999995231628,
+          "inputToFirstMs": 304.2999999523163,
+          "inputToReadyMs": 324.1999999284744
+        },
+        {
+          "inputToRequestMs": 207.39999997615814,
+          "requestToFirstMs": 99,
+          "inputToFirstMs": 306.39999997615814,
+          "inputToReadyMs": 327
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "harness": "0.2.1-rc.2",
+  "model": "deterministic local fixture",
+  "browser": "156.0.8078.48",
+  "checks": [
+    "Fast mode returns one candidate; typing a next-message prefix reuses its remainder without a model call",
+    "English typing-through keeps the exact mid-word suffix and Tab inserts it without an extra space",
+    "Chinese typing-through reuses complete candidates with the correct caret and no additional request",
+    "An unrelated edit triggers a new scoped prediction; no browser errors"
+  ],
+  "reuseInputToReadyMs": 11,
+  "reuseSamples": [
+    8.899999976158142,
+    6.099999904632568,
+    11,
+    13.5,
+    13.899999976158142,
+    10.600000023841858
+  ],
+  "predictionRequests": 6,
+  "pageErrors": []
+}

@@ -1,0 +1,71 @@
+{
+  "name": "dsh-composer-autocomplete",
+  "version": "0.2.3",
+  "description": "DeepSeek Harness 聊天输入框自动补全：灰字续写、下一句预测、Tab 采纳、中文输入法支持",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check index.js && node --check client.js && node --test test/*.test.mjs",
+    "test:browser": "node tools/browser-smoke.mjs",
+    "benchmark": "node tools/measure-latency.mjs",
+    "prepack": "node tools/check-package.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "composer",
+    "autocomplete",
+    "tab-completion"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "CHANGELOG.md",
+    "README.zh-CN.md",
+    "docs/verification.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    },
+    "catalog": {
+      "summary": {
+        "en": "Tab autocomplete for the DeepSeek Harness composer: next-message ghost text, inline draft completion and keyboard candidate cycling.",
+        "zh": "输入停顿时灰字续写，回复后预测下一句，Tab 采纳、Esc 关闭，支持中文输入法。"
+      },
+      "category": "ui"
+    }
+  },
+  "engines": {
+    "node": ">=24.9",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/liangzhiyu/dsh-composer-autocomplete.git" },
+  "homepage": "https://github.com/liangzhiyu/dsh-composer-autocomplete#readme",
+  "bugs": { "url": "https://github.com/liangzhiyu/dsh-composer-autocomplete/issues" },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "harness": "0.2.1-rc.2",
+  "model": "deterministic local fixture",
+  "browser": "156.0.8078.48",
+  "checks": [
+    "The empty composer keeps its native caret while next-message ghost text is visible",
+    "Continuation preview keeps the native caret and does not modify the draft or selection",
+    "Tab leaves the caret after the insertion; arrow keys and typing continue editing in place",
+    "Mouse clicks reposition the native caret after completion; typing edits there without sending"
+  ],
+  "screenshots": [
+    {
+      "file": "caret-next.png",
+      "focused": true,
+      "prefix": "",
+      "text": "",
+      "caretColor": "rgb(122, 170, 255)",
+      "x": 14,
+      "y": 12,
+      "height": 24,
+      "scale": 2
+    },
+    {
+      "file": "caret-continuation.png",
+      "focused": true,
+      "prefix": "请继续完善",
+      "text": "请继续完善",
+      "caretColor": "rgb(122, 170, 255)",
+      "x": 85.390625,
+      "y": 15,
+      "height": 17,
+      "scale": 2
+    },
+    {
+      "file": "caret-after-tab.png",
+      "focused": true,
+      "prefix": "请继续完善并补上回归测试。",
+      "text": "请继续完善并补上回归测试。",
+      "caretColor": "rgb(122, 170, 255)",
+      "x": 199.625,
+      "y": 15,
+      "height": 17,
+      "scale": 2
+    },
+    {
+      "file": "caret-after-click.png",
+      "focused": true,
+      "prefix": "请继X",
+      "text": "请继X续完善并补上回归测试!。",
+      "caretColor": "rgb(122, 170, 255)",
+      "x": 55.40625,
+      "y": 15,
+      "height": 17,
+      "scale": 2
+    }
+  ],
+  "pageErrors": []
+}

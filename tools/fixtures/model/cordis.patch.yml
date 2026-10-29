@@ -1,0 +1,7 @@
+- insert:
+    - id: autocomplete-fixture-model
+      name: dsh-autocomplete-fixture-model
+- id: agent-default-model
+  config:
+    provider: autocomplete-fixture
+    model: fixture

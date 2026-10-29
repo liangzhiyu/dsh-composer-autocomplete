@@ -1,0 +1,18 @@
+[
+  {
+    "file": "caret-next.png",
+    "nativeCaretPixels": 34
+  },
+  {
+    "file": "caret-continuation.png",
+    "nativeCaretPixels": 68
+  },
+  {
+    "file": "caret-after-tab.png",
+    "nativeCaretPixels": 68
+  },
+  {
+    "file": "caret-after-click.png",
+    "nativeCaretPixels": 68
+  }
+]

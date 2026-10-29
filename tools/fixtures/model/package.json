@@ -1,0 +1,9 @@
+{
+  "name": "dsh-autocomplete-fixture-model",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./index.js",
+  "dependencies": { "@deepseek-ai/dsh-llm": "0.2.1-rc.2" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
