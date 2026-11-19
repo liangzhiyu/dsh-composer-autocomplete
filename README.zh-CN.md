@@ -13,6 +13,10 @@
 
 截图来自真实 Harness 界面，演示使用本地确定性测试模型。
 
+[Web 快速安装](#安装) · [社区中文教程](https://blog.yeyupiaoling.cn/article/1793807748578)
+
+如果补全让你在 Harness 里写得更顺，欢迎给[仓库](https://github.com/liangzhiyu/dsh-composer-autocomplete)点个 Star，让更多人找到它。
+
 ## 安装
 
 已验证环境：Node.js ≥ 24.9、DeepSeek Harness `0.2.1-rc.2` Web。安装 [GitHub Release](https://github.com/liangzhiyu/dsh-composer-autocomplete/releases/latest) 中的预构建包：
