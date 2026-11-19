@@ -13,6 +13,10 @@ Licensed under [MIT](LICENSE). By default, predictions use the model configured 
 
 The screenshot shows the actual Harness UI with a deterministic local test model.
 
+[Quick install for Web](#install-or-update) · [Community walkthrough (中文)](https://blog.yeyupiaoling.cn/article/1793807748578)
+
+If this makes writing in Harness easier, a [GitHub Star](https://github.com/liangzhiyu/dsh-composer-autocomplete) helps others find it.
+
 ## Install or update
 
 Requirements: Node.js ≥ 24.9 and DeepSeek Harness. Tested with Harness `0.2.1-rc.2` Web. Install the prebuilt package from [GitHub Releases](https://github.com/liangzhiyu/dsh-composer-autocomplete/releases/latest):
